@@ -6,6 +6,7 @@ date: 2025-04-03
 category: [STUDY_NOTES, physics]
 tags: [Physics, M-Theory, Notes, Walkthrough]
 comments: false
+math: true
 ---
 
 # What is 11D Supergravity?
