@@ -4,7 +4,7 @@ title: "Analyzing Stuxnet"
 description: "An in-depth post-event technical analysis on Stuxnet"
 comments: false
 date: 2025-03-28
-categories: [MALWARE, report]
+categories: [malware, report]
 tags: [research]
 ---
 

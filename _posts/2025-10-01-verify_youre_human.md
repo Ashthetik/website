@@ -16,11 +16,11 @@ My computer said I needed to update MS Teams, so that is what I have been trying
 
 ...but I can't seem to get past this CAPTCHA!
 
-> CAUTION
+> CAUTION  
 > **This is the `Malware` category.** Please be sure to approach this challenge material within an isolated virtual machine.
 {: .prompt-warning }
 
-> NOTE
+> NOTE  
 > Some components of this challenge may be finicky with the _browser-based_ connection. You can still achieve what you need to, but there may be some more extra steps than if you were to approach this over the VPN.
 {: .prompt-info }
 	
