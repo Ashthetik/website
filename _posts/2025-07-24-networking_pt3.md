@@ -4,9 +4,9 @@ title:  "OSI, TCP, and UDP In-Depth"
 description: "An in-depth compilation of notes for OSI, TCP, and UDP"
 comments: false
 date:   2025-07-24 18:02:28 +1000
-categories: [STUDY_NOTES, networking]
+categories: [study notes, networking]
 tags: [networking]
-published: false
+published: true
 ---
 
 # Study Notes: OSI Transport Layer

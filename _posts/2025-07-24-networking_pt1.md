@@ -4,7 +4,7 @@ title: "Living in a Network-Centric World"
 description: "A compilation of notes for networking fundamentals"
 date: 2025-07-24 15:23:54 +1000
 comments: false
-categories: [STUDY_NOTES, networking]
+categories: [study notes, networking]
 tags: [networking]
 ---
 

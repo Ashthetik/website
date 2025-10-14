@@ -3,7 +3,7 @@ layout: post
 title: "11D Supergravity"
 description: "A small, info-filled, notelet for solving 11D SUGRA in M-Theory"
 date: 2025-04-03
-category: [STUDY_NOTES, physics]
+category: [study notes, physics]
 tags: [Physics, M-Theory, Notes, Walkthrough]
 comments: false
 math: true
