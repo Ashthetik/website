@@ -35,7 +35,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Ashlynn
-  email: me@dashleyxir.xyz # change to your email address
+  email: me@ashleyxir.xyz # change to your email address
   links:
     # The first element serves as the copyright owner's link
     # - https://bsky.app/profile/ashleyxir.xyz # change to your Twitter homepage
@@ -99,7 +99,7 @@ theme_mode: dark # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "https://cdn.discordapp.com/attachments/1347898539228794952/1398146672005087372/403d67e5dc3442e102946a6caaf6c3c9.jpg?ex=68844d0e&is=6882fb8e&hm=355301cf8821a65a4d772c47afebad843f32c6dd175e9a027ad28288a9df92db&"
+avatar: "https://i.redd.it/0prjtxhyjalb1.png"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
