@@ -4,7 +4,7 @@ title: "Case Study: St. Vincent's Data Breach"
 description: "A relatively in-depth post-analysis of the St. Vincent's 2023 data breach"
 comments: false
 date: 2025-06-14
-categories: [data breach, report]
+categories: [report, data breach]
 tags: [research, case study]
 ---
 
