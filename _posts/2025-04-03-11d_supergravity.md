@@ -7,6 +7,7 @@ category: [study notes, physics]
 tags: [Physics, M-Theory, Notes, Walkthrough]
 comments: false
 math: true
+author: ashlynn
 ---
 
 # What is 11D Supergravity?

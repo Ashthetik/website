@@ -6,6 +6,7 @@ date: 2025-07-24 15:23:54 +1000
 comments: false
 categories: [study notes, networking]
 tags: [networking]
+author: ashlynn
 ---
 
 # Study Notes: Living in a Network-Centric World

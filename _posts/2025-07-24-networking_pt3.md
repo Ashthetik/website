@@ -7,6 +7,7 @@ date:   2025-07-24 18:02:28 +1000
 categories: [study notes, networking]
 tags: [networking]
 published: true
+author: ashlynn
 ---
 
 # Study Notes: OSI Transport Layer

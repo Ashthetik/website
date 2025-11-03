@@ -7,6 +7,7 @@ description: "Classic verification 'glitch'"
 author: tr4ceang3l
 comments: false
 published: true
+author: ashlynn
 ---
 
 # The Challenge Deets

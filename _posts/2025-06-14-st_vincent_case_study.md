@@ -6,6 +6,7 @@ comments: false
 date: 2025-06-14
 categories: [report, data breach]
 tags: [research, case study]
+author: ashlynn
 ---
 
 ## Victims and Impacts

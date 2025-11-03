@@ -4,6 +4,7 @@ description: A compilation of notes for networking fundamentals
 date: 2025-07-24 17:55:00 +1000
 categories: [study notes, networking]
 tags: [networking]
+author: ashlynn
 ---
 
 # Communication Over the Network

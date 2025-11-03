@@ -6,6 +6,7 @@ date: 2024-11-2
 categories: [CTF, writeups]
 tags: [CyberSecurity, Huntress, CTF, Write-Up]
 comments: false
+author: ashlynn
 ---
 
 
