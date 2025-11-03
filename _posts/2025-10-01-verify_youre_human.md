@@ -6,7 +6,7 @@ tags: [malware, CTF]
 description: "Classic verification 'glitch'"
 author: tr4ceang3l
 comments: false
-published: false
+published: true
 ---
 
 # The Challenge Deets
