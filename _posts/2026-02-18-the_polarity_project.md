@@ -6,7 +6,7 @@ tags: [AI-ML, Behavioural Analysis]
 description: "How it started and where we're at now"
 author: tr4ceang3l
 comments: false
-published: false
+published: true
 author: ashlynn
 ---
 
