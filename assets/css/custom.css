@@ -1,0 +1,56 @@
+/* ===== Dark, Mandiant-style tables for Chirpy ===== */
+
+html[data-mode="dark"] table,
+html[data-mode="dark"] .table {
+  width: 100%;
+  background-color: #151b22 !important;
+  color: #d7dee7 !important;
+  border: 1px solid #2a3441 !important;
+  border-collapse: collapse !important;
+  font-size: 0.95rem;
+}
+
+/* Header */
+html[data-mode="dark"] table thead th,
+html[data-mode="dark"] .table thead th {
+  background-color: #1a212b !important;
+  color: #f3f6fa !important;
+  border-bottom: 1px solid #2a3441 !important;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  padding: 0.75rem 0.85rem;
+}
+
+/* Cells */
+html[data-mode="dark"] table th,
+html[data-mode="dark"] table td,
+html[data-mode="dark"] .table th,
+html[data-mode="dark"] .table td {
+  background-color: #151b22 !important;
+  color: #d7dee7 !important;
+  border: 1px solid #2a3441 !important;
+  padding: 0.7rem 0.85rem;
+}
+
+/* Subtle striping */
+html[data-mode="dark"] table tbody tr:nth-of-type(odd),
+html[data-mode="dark"] .table tbody tr:nth-of-type(odd) {
+  background-color: rgba(255, 255, 255, 0.025) !important;
+}
+
+/* Hover */
+html[data-mode="dark"] table tbody tr:hover,
+html[data-mode="dark"] .table tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+/* Inline code inside tables (for IOCs, hashes, etc.) */
+html[data-mode="dark"] table code {
+  background: #11161d !important;
+  color: #ffd7a8 !important;
+  border: 1px solid #24303d;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
