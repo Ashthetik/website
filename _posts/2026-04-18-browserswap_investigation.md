@@ -1,7 +1,7 @@
 ---
 title: "BrowserSwap - A Cryptojacking Campaign"
 description: "Phishing for Crypto, but with spreadsheets"
-date: 18-04-2026
+date: 2026-04-18
 categories: [Research, cybersecurity]
 tags: [cybersecurity, malware, phishing, TheProtocolOne]
 author: ashlynn
