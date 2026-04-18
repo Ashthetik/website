@@ -146,6 +146,7 @@ All following address should be blacklisted at the exchange level and flagged wi
 
 
 ## Network IOCs
+
 | Type              | Indicator                                                | Purpose                  |
 | :------------------| :---------------------------------------------------------| :-------------------------|
 | C2 (JSONP)        | sheets.googleapis.com                                    | Payload retrieval        |
