@@ -21,7 +21,7 @@ The attacker uses a publicly accessible Google Sheets document served via the Go
 The sheet is structured as a key-value rows with the following payload slots:
 
 | Field   | Content                                                                          |
-| ------- | -------------------------------------------------------------------------------- |
+| :------- | :-------------------------------------------------------------------------------- |
 | apiv4   | First half of `GsjOWJG` obfuscated payload (XOR key `0x16`) - Targets SimpleSwap |
 | apiv5   | Second half of apiv4 payload continuation                                        |
 | api_1   | First half of `iRQpZbb` payload (XOR key `0x2A`) - Targets Swapzone/ChangeNOW    |
@@ -29,7 +29,6 @@ The sheet is structured as a key-value rows with the following payload slots:
 | API Key | NodeAPI_[REDACTED]                                                               |
 | Status  | “API ONLINE” + live datestamp - Confirms active monitoring                       |
 | Nodes   | Accessible from Nodes: 1.8, 1.9, 2.0 - Seemingly arbitrary for phishing purposes |
-{: .table .table-dark }
 
 The payloads are split across multiple rows to avoid single-string detection, the sheet was last updated on the 18th of April 2026, the date of discovery, confirming active maintenance.
 
@@ -116,7 +115,7 @@ Allowing the attacker to maintain persistence over the address even if the victi
 All following address should be blacklisted at the exchange level and flagged with blockchain analytics providers (i.e. Chainalysis, Ellipitc, TRM Labs). As of writing this report, no reports have been made to these providers.
 
 | #   | Bitcoin Address                            | Payload            |
-| --- | ------------------------------------------ | ------------------ |
+| :--- | :------------------------------------------ | :------------------ |
 | 1   | bc1qgahr6ghrghsdakn6x8g3sskv2ts9yplgsvcvzj | Both               |
 | 2   | bc1qe5lwff6fjlhy5eqjyt6dcrfrzv9hv4rnuur84f | Both               |
 | 3   | bc1qagd7vsu78amqehvtljzn5qy4gkx2fvrvtl7qke | Both               |
@@ -144,7 +143,7 @@ All following address should be blacklisted at the exchange level and flagged wi
 | 25  | bc1qlhpqyg3qcvnx98vs48mhshqjlez2psswafm9l5 | Swapzone/ChangeNOW |
 | 26  | bc1q44wyq7urn4f2gyk90fw5qt8ddt8jt9g7dhkhdd | Swapzone/ChangeNOW |
 | 27  | bc1q109rr7vc3vtyqlk9ps5rjhqw7le7czjf7yjd6n | SimpleSwap         |
-{: .table .table-dark }
+
 
 ## Network IOCs
 | Type              | Indicator                                                | Purpose                  |
@@ -155,13 +154,13 @@ All following address should be blacklisted at the exchange level and flagged wi
 | API intercepted   | /api/v4/exchanges-new/                                   | SimpleSwap backend       |
 | QR abuse          | api.qrserver.com/v1/create-qr-code/                      | Attacker QR generation   |
 | Explorer redirect | blockchain.com/explorer/addresses/btc/                   | False verification       |
-{: .table .table-dark }
+
 
 ## Script-Level Signatures
 Due to the nature of obfuscated/minified JavaScript, the following table may become obsolete as XOR keys change and payloads are replaced. Use with Caution.
 
 | Pattern                                  | Significance                               |
-| ---------------------------------------- | ------------------------------------------ |
+| :---------------------------------------- | :------------------------------------------ |
 | NodeAPI_7fK2mQ9xL4pV8nR1cT6yH3zW5bJ0dN2u | Hardcoded API key present in both payloads |
 | `Fc$oittgrRB$JzscNWfquyxE`               | Swapzone/ChangeNOW bootstrap function name |
 | `jdeeT_yGM`                              | Swapzone/ChangeNOW string array variable   |
@@ -176,7 +175,7 @@ Due to the nature of obfuscated/minified JavaScript, the following table may bec
 | `azpuNVQGcjxShs = 0.26`                  | Amount inflation constant                  |
 | `l$xoVazBy = 0.0019177`                  | Minimum BTC threshold constant             |
 | `sYYeVRYVGYWfpmTn = 0.44`                | Amount scaling constant                    |
-{: .table .table-dark }
+
 
 # Detection Guidance
 ## EDR/AV YARA Rule
