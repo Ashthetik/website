@@ -29,6 +29,8 @@ The sheet is structured as a key-value rows with the following payload slots:
 | API Key | NodeAPI_[REDACTED]                                                               |
 | Status  | “API ONLINE” + live datestamp - Confirms active monitoring                       |
 | Nodes   | Accessible from Nodes: 1.8, 1.9, 2.0 - Seemingly arbitrary for phishing purposes |
+{: .table .table-striped .table-bordered }
+
 The payloads are split across multiple rows to avoid single-string detection, the sheet was last updated on the 18th of April 2026, the date of discovery, confirming active maintenance.
 
 ## Injection Point
@@ -142,6 +144,8 @@ All following address should be blacklisted at the exchange level and flagged wi
 | 25  | bc1qlhpqyg3qcvnx98vs48mhshqjlez2psswafm9l5 | Swapzone/ChangeNOW |
 | 26  | bc1q44wyq7urn4f2gyk90fw5qt8ddt8jt9g7dhkhdd | Swapzone/ChangeNOW |
 | 27  | bc1q109rr7vc3vtyqlk9ps5rjhqw7le7czjf7yjd6n | SimpleSwap         |
+{: .table .table-striped .table-bordered }
+
 ## Network IOCs
 | Type              | Indicator                                                | Purpose                  |
 |-------------------|----------------------------------------------------------|--------------------------|
@@ -151,6 +155,8 @@ All following address should be blacklisted at the exchange level and flagged wi
 | API intercepted   | /api/v4/exchanges-new/                                   | SimpleSwap backend       |
 | QR abuse          | api.qrserver.com/v1/create-qr-code/                      | Attacker QR generation   |
 | Explorer redirect | blockchain.com/explorer/addresses/btc/                   | False verification       |
+{: .table .table-striped .table-bordered }
+
 ## Script-Level Signatures
 Due to the nature of obfuscated/minified JavaScript, the following table may become obsolete as XOR keys change and payloads are replaced. Use with Caution.
 
@@ -170,6 +176,7 @@ Due to the nature of obfuscated/minified JavaScript, the following table may bec
 | `azpuNVQGcjxShs = 0.26`                  | Amount inflation constant                  |
 | `l$xoVazBy = 0.0019177`                  | Minimum BTC threshold constant             |
 | `sYYeVRYVGYWfpmTn = 0.44`                | Amount scaling constant                    |
+{: .table .table-striped .table-bordered }
 
 # Detection Guidance
 ## EDR/AV YARA Rule
