@@ -147,7 +147,7 @@ All following address should be blacklisted at the exchange level and flagged wi
 
 ## Network IOCs
 | Type              | Indicator                                                | Purpose                  |
-|-------------------|----------------------------------------------------------|--------------------------|
+| :------------------| :---------------------------------------------------------| :-------------------------|
 | C2 (JSONP)        | sheets.googleapis.com                                    | Payload retrieval        |
 | C2 (JSONP)        | docs.google.com/spreadsheets/                            | Payload retrieval        |
 | Delivery URL      | swapzone.io/exchange/nodes/changenow/btc/node-1.9.js     | Script injection point   |
