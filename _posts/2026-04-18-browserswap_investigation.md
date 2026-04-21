@@ -182,7 +182,6 @@ Due to the nature of obfuscated/minified JavaScript, the following table may bec
 ## EDR/AV YARA Rule
 The following YARA rule targets the obfuscation skeleton common to both payloads. As with the prior IOCs, some of these values are subject to change as the payloads evolve or get redistributed.
 
-{ % raw % }
 ```
 rule CryptoAddrHijack_TheProtocolOne { 
   meta: 
@@ -206,7 +205,6 @@ rule CryptoAddrHijack_TheProtocolOne {
 } 
 ```
 {: file="YARA" :}
-{ % endraw % }
 
 ## Network Detection
 - Alert on outbound requests to sheets[.]googleapis[.]com or docs[.]google[.]com[/]spreadsheets originating from a browser JavaScript context on exchange-adjacent domains 
