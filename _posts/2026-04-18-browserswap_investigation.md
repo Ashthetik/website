@@ -204,7 +204,7 @@ rule CryptoAddrHijack_TheProtocolOne {
     2 of ($overlay, $modal, $threshold, $xor_loop, $addr_fn) 
 } 
 ```
-{: file="YARA" :}
+{: file="YARA.yar" :}
 
 ## Network Detection
 - Alert on outbound requests to sheets[.]googleapis[.]com or docs[.]google[.]com[/]spreadsheets originating from a browser JavaScript context on exchange-adjacent domains 
